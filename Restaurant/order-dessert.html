@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dessert Buyurtma</title>
+    <link rel="stylesheet" href="app.css/stylesd.css">
+    <link rel="icon" type="image/png" href="./images/logotip_circle_final.png">
+</head>
+<body>
+    <header>
+        <h1>Dessert Buyurtma</h1>
+        <nav>
+            <a href="index.html">Bosh sahifa</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Dessert</h2>
+        <img src="https://img.delicious.com.au/9-vtHifl/del/2015/10/chocolate-marquise-11658-1.jpg" alt="Dessert">
+        <p>Juda mazali dessert! 🍰</p>
+
+        <form id="orderForm">
+            <label for="name">Ism:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Telefon raqam:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="address">Manzil:</label>
+            <input type="text" id="address-line1" name="address-line1" placeholder="Ko'cha" required>
+            <input type="text" id="address-line2" name="address-line2" placeholder="Uy raqami" required>
+            <input type="text" id="city" name="city" placeholder="Shahar" required>
+            <input type="text" id="postal-code" name="postal-code" placeholder="Pochta indeksi" required>
+
+            <label for="quantity">Miqdor:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+
+            <button type="submit">Buyurtma berish</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Restaurant Name. All rights reserved.</p>
+    </footer>
+
+    <script src="app.script/dessert.js"></script>
+</body>
+</html>
